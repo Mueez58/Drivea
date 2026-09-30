@@ -26,7 +26,7 @@ export const AppProvider = ({ children }) => {
 
 
       // Filter && Sort State 
-      const [searchQuery, setSearchQuery] = useState("")
+    const [searchQuery, setSearchQuery] = useState("")
       const [sortBy, setSortBy] = useState("name_asc")
 
 

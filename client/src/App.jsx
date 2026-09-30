@@ -27,7 +27,7 @@ const App = () => {
         <Route path="/trash" element={<Trash />} />
        </Route>
        </Route>
-      
+
        <Route  path='*' element={<Navigate to="/" replace />} />
        </Routes>
     </>
